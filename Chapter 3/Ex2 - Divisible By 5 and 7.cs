@@ -2,7 +2,7 @@ using System;
 
 namespace ChapterThreeSolutions
 {
-    class DivisibleBy5n7
+    class Program
     {
 	static void Main(string[] args)
 	{
