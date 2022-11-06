@@ -2,7 +2,7 @@ using System;
 	
 namespace ChapterThreeSolutions
 {
-    class EvenOrOdd
+    class Program
     {
 	static void Main(string[] args)
 	{
