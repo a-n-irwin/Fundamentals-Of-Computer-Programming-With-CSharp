@@ -25,7 +25,23 @@ divisible by 35.
 <b>Note: The LCM of two or more numbers is not the multiplication of the numbers themselves.  
 Sometimes it is not different from the multiplication of the numbers involved (just like in  
 the case of 5 and 7), but this is not always the case. If you're interested in how to find  
-the LCM of numbers then lookup the link below:  
+the LCM of numbers then lookup the link below:</b>  
 
-<a href="https://www.smartick.com/blog/mathematics/multiplication-and-division/least-common-multiple/">Least Common Multiple</a>
+<I><a href="https://www.smartick.com/blog/mathematics/multiplication-and-division/least-common-multiple/">Least Common Multiple</a></i>
 
+------------------------------------------------------------------------------------------
+
+#### Exercise 3: Third Digit ####
+The task is to determine if the third digit of an integer (starting from the right) is 7. 
+Given the right to left condition, the third digit of any integer would be in the <b><i>hundreds</i></b>  
+column. We can achieve this by checking the remainder when the number is divided by 1000. 
+This is because the remainder would then lie between 0 - 999. The range we're interested in  
+is 700 - 799. Another way to rephrase all of this stuff is: <b>"If we slice up the number  
+into two parts, in between the third and fourth digits, what would be the starting digit  
+of the right part?</b>. The solution can be similar to:
+
+rem = remainder of num divided by 1000   
+if rem is within the range from 700 to 799:  
+&emsp;print "Third digit is 7"  
+else:  
+&emsp;print "Third digit is not 7"
