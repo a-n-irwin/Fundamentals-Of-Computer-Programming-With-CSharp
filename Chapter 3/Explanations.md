@@ -45,3 +45,26 @@ if rem is within the range from 700 to 799:
 &emsp;print "Third digit is 7"  
 else:  
 &emsp;print "Third digit is not 7"
+
+
+
+# Exercise 4: Third Bit #
+Integers are represented internally as a sequence of bits. We're tasked with finding out  
+what the third bit of an integer is. There are different ways to this, but they involve  
+the use of bitwise operators:
+
+&emsp;<b>1. </b>Shift the third bit two places to the right so it becomes the first bit, then zero out all the  
+&emsp;other bits except the first bit. The resulting integer (0 or 1) is the bit. This is the method I used.  
+
+&emsp;<b>2. </b>Zero out all the bits in the integer except the one in the third position. If the resulting integer  
+&emsp;is 0, then the bit is zero. Else, the bit is 1. But if you were to use this method, the resulting integer will 
+&emps;either be 0 or NOT zero (2<sup>3-1</sup> to be specific, or 2<sup>n-1</sup>, where n is the bit position). To  
+
+&emsp;<b>3. </b>Left-shift the third bit to the last position, then right-shift it to the first position. The effect of  
+&emsp;the first Left-shift is to throw away all the bits before the third bit. Then the right-shift's effect would cause  
+&emsp;all the bits after the third bit (which is now the last bit) to be tossed away. The resulting integer would be 0 or  
+&emsp;1, and that would be the third bit's value.  
+
+Even though I later used the first method (after a review of the solution provided in the book), my initial solution was  
+<b>no. 3</b> above :)
+
