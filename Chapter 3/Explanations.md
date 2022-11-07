@@ -64,7 +64,7 @@ the use of bitwise operators:
 
 &emsp;<b>2. </b>Zero out all the bits in the integer except the one in the third position. If the resulting integer  
 &emsp;is 0, then the bit is zero. Else, the bit is 1. But if you were to use this method, the resulting integer will 
-&emps;either be 0 or NOT zero (2<sup>3-1</sup> to be specific, or 2<sup>n-1</sup>, where n is the bit position). To  
+&emsp;either be 0 or NOT zero (2<sup>3-1</sup> to be specific, or 2<sup>n-1</sup>, where n is the bit position). To  
 
 &emsp;<b>3. </b>Left-shift the third bit to the last position, then right-shift it to the first position. The effect of  
 &emsp;the first Left-shift is to throw away all the bits before the third bit. Then the right-shift's effect would cause  
