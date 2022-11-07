@@ -10,6 +10,8 @@ check if the number is divisible by 2:
 
 With this logic, zero (0) which is neutral will be seen as an even number as 0/2 = 0.  
 The code is meant to be simple, so there's no check for zero as input.  
+  
+  
 
 
 
@@ -28,6 +30,8 @@ the case of 5 and 7), but this is not always the case. If you're interested in h
 the LCM of numbers then lookup the link below:</b>  
 
 <I><a href="https://www.smartick.com/blog/mathematics/multiplication-and-division/least-common-multiple/">Least Common Multiple</a></i>
+  
+  
 
 
 
@@ -45,6 +49,8 @@ if rem is within the range from 700 to 799:
 &emsp;print "Third digit is 7"  
 else:  
 &emsp;print "Third digit is not 7"
+  
+  
 
 
 
@@ -67,4 +73,3 @@ the use of bitwise operators:
 
 Even though I later used the first method (after a review of the solution provided in the book), my initial solution was  
 <b>no. 3</b> above :)
-
