@@ -72,4 +72,12 @@ the use of bitwise operators:
 &emsp;1, and that would be the third bit's value.  
 
 Even though I later used the first method (after a review of the solution provided in the book), my initial solution was  
-<b>no. 3</b> above :)
+<b>no. 3</b> above :)  
+
+
+
+
+# Exercise 5: Area Of Trapezoid #
+The formula for calculating the area of a trapezoid/trapezium is:  <b>0.5 x (a + b) x h</b>  
+&emsp;Where <b>a</b> and <b>b</b> are the lengths of the parallel lines of the trapezoid; and   
+&emsp;&emsp;&emsp;&emsp;<b>h</b> is the height of the trapezoid
