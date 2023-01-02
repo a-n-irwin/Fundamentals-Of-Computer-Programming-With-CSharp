@@ -6,7 +6,7 @@ int max = int.Parse(input[0]);
 
 for (int i = 1; i < input.Length; ++i)
 {
-    max = System.Math.Max(max, int.Parse(input[i]));
+    max = Math.Max(max, int.Parse(input[i]));
 }
 
 Console.WriteLine($"Maximum value: {max}");
