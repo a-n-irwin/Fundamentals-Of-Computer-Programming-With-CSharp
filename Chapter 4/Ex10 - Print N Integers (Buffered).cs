@@ -6,7 +6,7 @@ using System.Text;
 Console.Write("Enter n: ");
 int n = System.Math.Abs(int.Parse(Console.ReadLine()));
 
-StringBuilder sb = new (n*n);
+StringBuilder sb = new (5*n);
 
 for (int i = 1; i <= n; ++i)
     sb.Append(i + "\n");
