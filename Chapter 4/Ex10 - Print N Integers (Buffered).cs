@@ -4,7 +4,7 @@
 using System.Text;
 
 Console.Write("Enter n: ");
-int n = System.Math.Abs(int.Parse(Console.ReadLine()));
+int n = Math.Abs(int.Parse(Console.ReadLine()));
 
 StringBuilder sb = new (5*n);
 
