@@ -3,5 +3,5 @@ This repo contains my own personal solutions for the C# book with the same name 
 from chapter 3 exercise 13 onwards make use of C# 9's top level statement feature for simplicity.  
   
   
-##### Chapter 3 (finished) #####
+##### Chapter 3 (complete) #####
 ##### Chapter 4 #####
