@@ -3,8 +3,6 @@
 double oldSum = 0;
 double sum = 1.0;
 
-// This exercise did not specify how far the operation needs to go
-// so i'm using an abitrary length (i.e 100)
 for (int i = 2; Math.Abs(sum - oldSum) > 0.001; ++i)
 {
     oldSum = sum;
