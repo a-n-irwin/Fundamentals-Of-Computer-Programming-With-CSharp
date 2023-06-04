@@ -1,4 +1,7 @@
-﻿Console.WriteLine(ProductInRange(9, 10));
+﻿// This file is mainly for practice and testing purpose and does not concern the solutions to the exercises
+
+
+Chapter2.Ex08_ConcatenationWithCast();
 Console.Read();
 
 

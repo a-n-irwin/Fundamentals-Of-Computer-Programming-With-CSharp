@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Fundamentals-Of-Computer-Programming-With-CSharp/1.0.0": {
+        "runtime": {
+          "Fundamentals-Of-Computer-Programming-With-CSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fundamentals-Of-Computer-Programming-With-CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

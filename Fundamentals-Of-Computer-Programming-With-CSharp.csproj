@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Fundamentals_Of_Computer_Programming_With_CSharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
 </Project>

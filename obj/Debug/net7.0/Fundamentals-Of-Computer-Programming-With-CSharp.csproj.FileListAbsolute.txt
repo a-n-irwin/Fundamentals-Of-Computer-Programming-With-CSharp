@@ -1,0 +1,15 @@
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\bin\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.exe
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\bin\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.deps.json
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\bin\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.runtimeconfig.json
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\bin\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.dll
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\bin\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.pdb
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.csproj.AssemblyReference.cache
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.AssemblyInfoInputs.cache
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.AssemblyInfo.cs
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.dll
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\refint\Fundamentals-Of-Computer-Programming-With-CSharp.dll
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.pdb
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\Fundamentals-Of-Computer-Programming-With-CSharp.genruntimeconfig.cache
+C:\Users\user\Development\CS\Fundamentals-Of-Computer-Programming-With-CSharp\obj\Debug\net7.0\ref\Fundamentals-Of-Computer-Programming-With-CSharp.dll
