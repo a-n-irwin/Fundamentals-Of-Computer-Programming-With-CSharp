@@ -11,7 +11,7 @@ partial class Chapter3
         double radius = 5;
 
         // Circle is centered around origin {0, 0}, so we don't need to calculate any offsets
-        // Use Pythagoras' theorem to calculate the distance of the given podouble from the origin
+        // Use Pythagoras' theorem to calculate the distance of the given point from the origin
         double distance = Math.Sqrt(x*x + y*y);
         bool isWithinCircle = distance < radius;
 

@@ -11,8 +11,8 @@ console.
 10. Write a program that prints the first 100 members of the sequence 2, -
 3, 4, -5, 6, -7, 8.
 11. Write a program that reads your age from the console and prints your 
-age after 10 years.
-
+age after 10 years.  
+  
 
 
 ## Chapter 2: ##
@@ -51,8 +51,8 @@ maintain the information for an employee by using the appropriate data
 types and attribute names.
 13. Declare two variables of type int. Assign to them values 5 and 10 
 respectively. Exchange (swap) their values and print them.
-Write an expression that checks whether an integer is odd or even.
-
+Write an expression that checks whether an integer is odd or even.  
+  
 
 
 ## Chapter 3: ##
