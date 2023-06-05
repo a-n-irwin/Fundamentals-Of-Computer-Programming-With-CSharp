@@ -17,7 +17,7 @@ Main function. As examples:
         Chapter1.Ex06_<Name>();
         Chapter2.Ex01_<Name>();
 
-where "<Name>" is a placeholder for the name of the function (the solution to the exercise). An example:
+where "Name" is a placeholder for the name of the function (the solution to the exercise). An example:
         
         Chapter1.Ex05_GoodDay();
 
