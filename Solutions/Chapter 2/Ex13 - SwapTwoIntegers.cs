@@ -2,8 +2,8 @@ partial class Chapter2
 {
     public static void Ex13_SwapTwoIntegers()
     {
-        int a = 6;
-        int b = -8;
+        int a = 5;
+        int b = 10;
 
         Console.WriteLine($"Before swap:\na: {a}\nb: {b}");
 
