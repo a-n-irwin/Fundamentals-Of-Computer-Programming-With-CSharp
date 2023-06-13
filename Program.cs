@@ -1,11 +1,11 @@
 ﻿// This file is mainly for practice and testing purpose and does not concern the solutions to the exercises
 
 
-Chapter3.Ex08_PointWithinCircle();
+Chapter2.Ex10_Heart();
 Console.Read();
 
 
-// Factorial using recursion
+// // Factorial using recursion
 // static System.Numerics.BigInteger Factorial(int n)
 // {
 //     return (Math.Abs(n) == 1 || n == 0 ? Math.Sign(n)*1 : n * Factorial(Math.Sign(n) * (Math.Abs(n)-1)));
