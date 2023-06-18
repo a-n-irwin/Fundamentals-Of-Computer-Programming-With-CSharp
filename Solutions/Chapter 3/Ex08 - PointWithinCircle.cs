@@ -15,6 +15,6 @@ partial class Chapter3
         double distance = Math.Sqrt(x*x + y*y);
         bool isWithinCircle = distance < radius;
 
-        Console.WriteLine($"\nradius: {radius}\npoint: ({x}, {y})\ndistance: {distance:0.000}\nis within circle? {isWithinCircle}");
+        Console.WriteLine($"\nradius: {radius}\npoint: ({x}, {y})\ndistance from origin (0, 0): {distance:0.000}\nis within circle? {isWithinCircle}");
     }
 }
