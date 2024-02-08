@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Development\\CS\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj": {}
+    "C:\\Users\\user\\Development\\CSharp\\.NET Core\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Development\\CS\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj": {
+    "C:\\Users\\user\\Development\\CSharp\\.NET Core\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Development\\CS\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj",
         "projectName": "Fundamentals-Of-Computer-Programming-With-CSharp",
-        "projectPath": "C:\\Users\\user\\Development\\CS\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj",
+        "projectPath": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\Fundamentals-Of-Computer-Programming-With-CSharp\\Fundamentals-Of-Computer-Programming-With-CSharp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Development\\CS\\Fundamentals-Of-Computer-Programming-With-CSharp\\obj\\",
+        "outputPath": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\Fundamentals-Of-Computer-Programming-With-CSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\user\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -57,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

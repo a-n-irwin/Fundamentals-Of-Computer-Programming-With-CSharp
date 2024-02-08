@@ -1,6 +1,11 @@
-﻿// This file is mainly for practice and testing purpose and does not concern the solutions to the exercises
+using System;
+using Fundamentals_Of_Computer_Programming_With_CSharp;
 
 
-
-Chapter3.Ex16_SwapKBits();
-Console.Read();
+public class Program
+{
+    public static void Main()
+    {
+        ChapterTwo.Ex02_CompareTwoRealNumbers();
+    }
+}
