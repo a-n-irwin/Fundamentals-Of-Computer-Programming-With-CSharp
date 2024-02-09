@@ -4,7 +4,7 @@ namespace Fundamentals_Of_Computer_Programming_With_CSharp;
 
 partial class ChapterTwo
 {
-    public static void Ex02_CompareTwoRealNumbers()
+    public static void Ex03_CompareTwoRealNumbers()
     {
         // How the program should be written is not specified, just the main goal of it. So I improvised.
 

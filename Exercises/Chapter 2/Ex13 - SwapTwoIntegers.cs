@@ -1,4 +1,9 @@
-partial class Chapter2
+using System;
+
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
+partial class ChapterTwo
 {
     public static void Ex13_SwapTwoIntegers()
     {
@@ -7,14 +12,17 @@ partial class Chapter2
 
         Console.WriteLine($"Before swap:\na: {a}\nb: {b}");
 
+        int temp = a;
+        a = b;
+        b = temp;
+
         // See also:
         // a = a + b;
         // b = a - b;
         // a = a - b;
-        
-        int temp = a;
-        a = b;
-        b = temp;
+
+        // See also:
+        // (a, b) = (b, a);
 
         Console.WriteLine($"After swap:\na: {a}\nb: {b}");
     }

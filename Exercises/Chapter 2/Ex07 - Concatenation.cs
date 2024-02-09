@@ -1,4 +1,8 @@
-partial class Chapter2
+using System;
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
+partial class ChapterTwo
 {
     public static void Ex07_Concatenation()
     {

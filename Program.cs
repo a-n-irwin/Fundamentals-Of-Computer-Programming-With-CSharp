@@ -6,6 +6,6 @@ public class Program
 {
     public static void Main()
     {
-        ChapterTwo.Ex02_CompareTwoRealNumbers();
+
     }
 }

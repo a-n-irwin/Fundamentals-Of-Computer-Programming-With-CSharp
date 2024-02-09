@@ -1,10 +1,14 @@
-partial class Chapter2
+using System;
+
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
+partial class ChapterTwo
 {
     public static void Ex11_IsoscelesTriangle()
     {
         // Unicode for cpyright character
         char c = '\u00A9';
-        
 
         Console.WriteLine($"                           {c}");
         Console.WriteLine($"                        {c}    {c}");
