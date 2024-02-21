@@ -1,3 +1,8 @@
+using System;
+
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
 partial class Chapter3
 {
     public static void Ex06_PerimeterAndAreaOfRectangle()
@@ -7,7 +12,7 @@ partial class Chapter3
 
         double w = double.Parse(input[0]);
         double h = double.Parse(input[1]);
-        
+
         double perimeter = 2 * (w + h);
         double area = w * h;
 

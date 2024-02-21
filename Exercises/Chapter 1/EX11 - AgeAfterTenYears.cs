@@ -3,7 +3,7 @@ using System;
 
 namespace Fundamentals_Of_Computer_Programming_With_CSharp;
 
-partial class ChapterOne
+partial class Chapter1
 {
     public static void Ex11_AgeAfterTenYears()
     {

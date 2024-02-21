@@ -1,3 +1,8 @@
+using System;
+
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
 partial class Chapter3
 {
     public static void Ex08_PointWithinCircle()
@@ -12,7 +17,7 @@ partial class Chapter3
 
         // Circle is centered around origin {0, 0}, so we don't need to calculate any offsets
         // Use Pythagoras' theorem to calculate the distance of the given point from the origin
-        double distance = Math.Sqrt(x*x + y*y);
+        double distance = Math.Sqrt(x * x + y * y);
         bool isWithinCircle = distance < radius;
 
         Console.WriteLine($"\nradius: {radius}\npoint: ({x}, {y})\ndistance from origin (0, 0): {distance:0.000}\nis within circle? {isWithinCircle}");

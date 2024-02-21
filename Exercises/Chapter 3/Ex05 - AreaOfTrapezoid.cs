@@ -1,3 +1,8 @@
+using System;
+
+
+namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+
 partial class Chapter3
 {
     public static void Ex05_AreaOfTrapezoid()
