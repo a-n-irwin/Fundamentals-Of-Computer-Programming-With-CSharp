@@ -1,3 +1,9 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
+
 partial class Chapter3
 {
     public static void Ex16_SwapKBits()
@@ -25,4 +31,20 @@ partial class Chapter3
 
         Console.WriteLine($"value of n after swapping: {n}");
     }
+
+    // SwapBits() and GetBit() are aleready defined for Chapter3 as a helper method. These commented codes below are here 
+    // just to show how they are implemented, and to give a sort of "non-dependency" feeling to this solution
+    //
+    // public static uint SwapBits(uint n, int p1, int p2)
+    // {
+    //     // If the two bits to swap are not the same, flip them. Else, return the number as is
+    //     if (GetBit(n, p1) != GetBit(n, p2))
+    //     {
+    //         n ^= 1u << p1;
+    //         n ^= 1u << p2;
+    //     }
+    //     return n;
+    // }
+    // Position, p, is zero-based
+    // static uint GetBit(uint n, int p) => (n >> p) & 1;
 }

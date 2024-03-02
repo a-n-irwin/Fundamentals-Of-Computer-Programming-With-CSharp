@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Fundamentals_Of_Computer_Programming_With_CSharp</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FundamentalsOfComputerProgrammingWithCSharp</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
 

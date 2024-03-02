@@ -1,11 +1,24 @@
 using System;
-using Fundamentals_Of_Computer_Programming_With_CSharp;
+using FundamentalsOfComputerProgrammingWithCSharp;
+using System.Collections.Generic;
+using System.IO;
 
 
 public class Program
 {
     public static void Main()
     {
-        Fundamentals_Of_Computer_Programming_With_CSharp.Chapter3.Ex06_PerimeterAndAreaOfRectangle();
+        var outstream = Console.Out;
+        var inpstream = Console.In;
+
+        outstream.Write("Hello there, my name is Irwin. What is yours: ");
+
+        var name = inpstream.ReadLine();
+
+        outstream.Write($"Nice to meet you, {name}.");
+
+
+        // So the console doesn't close afterwards
+        Console.Read();
     }
 }

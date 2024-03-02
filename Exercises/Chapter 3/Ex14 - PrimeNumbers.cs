@@ -1,3 +1,8 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
 partial class Chapter3
 {
     public static void Ex14_PrimeNumbers()
@@ -5,15 +10,15 @@ partial class Chapter3
         Console.Write("Enter an integer in the range 1 - 100: ");
         int n = int.Parse(Console.ReadLine());
 
-        // Input validation
-        if (n > 100 || n < 1)
+        // Input validation: 1 < n < 100
+        if (n >= 100 || n <= 1)
         {
-            Console.WriteLine($"{n} is out of range");
+            Console.WriteLine($"{n} is not within range");
             return;
         }
 
         bool isPrime = true;
-        int length = Convert.ToInt32(Math.Sqrt(n));
+        int length = (int)Math.Sqrt(n);
 
         for (int i = 2; i <= length; ++i)
         {

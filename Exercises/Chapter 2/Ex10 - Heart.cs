@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+namespace FundamentalsOfComputerProgrammingWithCSharp;
 
 partial class Chapter2
 {
@@ -21,6 +21,7 @@ partial class Chapter2
         Console.WriteLine("                     o:::::::::::::o");
         Console.WriteLine("                        o::::::::o");
         Console.WriteLine("                           o:::o");
-        Console.WriteLine("                             oo");
+        Console.WriteLine("                            o:o");
+        Console.WriteLine("                             o");
     }
 }

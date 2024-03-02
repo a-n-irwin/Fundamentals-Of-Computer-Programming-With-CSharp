@@ -1,2 +1,2 @@
-namespace Fundamentals_of_Computer_Programming_With_CSharp;
+namespace FundamentalsOfComputerProgrammingWithCSharp;
 

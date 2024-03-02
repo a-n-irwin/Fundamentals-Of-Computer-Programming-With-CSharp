@@ -58,7 +58,6 @@ name, last name, age, gender (‘m’ or ‘f’) and unique employee number
 maintain the information for an employee by using the appropriate data 
 types and attribute names.
 13. Declare two variables of type int. Assign to them values 5 and 10 
-<<<<<<< HEAD:Exercises/exercises.md
 respectively. Exchange (swap) their values and print them.  
   
 
@@ -109,6 +108,3 @@ prime number (i.e. it is divisible without remainder only to itself and 1).
 integer.
 16. * Write a program that exchanges bits {p, p+1, …, p+k-1} with bits {q, 
 q+1, …, q+k-1} of a given 32-bit unsigned integer.
-=======
-respectively. Exchange (swap) their values and print them.
->>>>>>> a5ce63d35ea058f2729fc679d07103c5ee80951f:Exercises/README.md

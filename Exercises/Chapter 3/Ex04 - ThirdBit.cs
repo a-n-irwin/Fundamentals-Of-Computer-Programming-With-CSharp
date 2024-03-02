@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+namespace FundamentalsOfComputerProgrammingWithCSharp;
 
 partial class Chapter3
 {
@@ -10,11 +10,11 @@ partial class Chapter3
         Console.Write("Enter an integer: ");
         int n = int.Parse(Console.ReadLine());
 
-        // Third bit from the right. I take third bit to be the bit at the second (zero-based) index
+        // Third bit from the right (zero-based index).
         // true = 1, false = 0
-        bool bit = ((n >> 2) & 1) == 1;
+        bool bit = ((n >> 3) & 1) == 1;
         // or 
-        // bool bit = (n & (1 << 2)) != 0;
+        // bool bit = (n & (1 << 3)) != 0;
         Console.WriteLine($"third bit is {(bit ? 1 : 0)}");
     }
 }

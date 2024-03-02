@@ -1,7 +1,17 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
 partial class Chapter3
 {
     public static void Ex15_SwapThreeBits()
     {
+        uint x = 134847 << 32;
+        int y = 134847 << 32;
+
+        Console.WriteLine($"{x} {y}");
+
         Console.Write("Enter integer: ");
         uint n = uint.Parse(Console.ReadLine());
 
@@ -13,7 +23,7 @@ partial class Chapter3
         Console.WriteLine($"bit at position 24: {GetBit(n, 24)}");
         Console.WriteLine($"bit at position 25: {GetBit(n, 25)}");
         Console.WriteLine($"bit at position 26: {GetBit(n, 26)}");
-        
+
 
         // This is where the actual solution to the exercise is
         n = SwapBits(n, 3, 24);

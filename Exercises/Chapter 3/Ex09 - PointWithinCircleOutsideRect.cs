@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+namespace FundamentalsOfComputerProgrammingWithCSharp;
 
 partial class Chapter3
 {
@@ -18,7 +18,7 @@ partial class Chapter3
         // Circle is centered around origin {0, 0}, so we don't need to calculate any offsets
         // Use Pythagoras' theorem to calculate the distance of the given point from the origin
         double distance = Math.Sqrt(x * x + y * y);
-        bool isWithinCircle = distance < radius;
+        bool isWithinCircle = distance <= radius;
 
         // Rectangle is positioned at {-1. 1} and {5, 5} (bottom left and top right positions, respectively)
         bool isOutsideRectangle = (x < -1 || x > 5 || y < 1 || y > 5);

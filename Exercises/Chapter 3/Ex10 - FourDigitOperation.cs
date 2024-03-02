@@ -1,3 +1,9 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
+
 partial class Chapter3
 {
     public static void Ex10_FourDigitOperation()
@@ -14,9 +20,10 @@ partial class Chapter3
 
         int num = int.Parse(input);
         int a = num / 1000;
-        int b = (num - (a * 1000)) / 100;
+        int b = (num % 1000) / 100;
         int c = (num % 100) / 10;
         int d = num % 10;
+
 
         Console.WriteLine($"sum: {a + b + c + d}");
         Console.WriteLine($"reversed: {d}{c}{b}{a}");

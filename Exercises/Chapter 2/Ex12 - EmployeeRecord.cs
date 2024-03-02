@@ -1,4 +1,4 @@
-namespace Fundamentals_Of_Computer_Programming_With_CSharp;
+namespace FundamentalsOfComputerProgrammingWithCSharp;
 
 partial class Chapter2
 {

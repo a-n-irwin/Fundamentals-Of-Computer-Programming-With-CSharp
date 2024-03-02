@@ -1,3 +1,9 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
+
 partial class Chapter3
 {
     public static void Ex12_BitAtPosition()
@@ -8,7 +14,7 @@ partial class Chapter3
         int v = int.Parse(input[0]);
         int p = int.Parse(input[1]);
 
-        // Get the bit at position p. I assume "p" is a zero based index position
+        // Get the bit at position p. I assume "p" is a zero based index position (the illustration suggests so)
         bool bit = ((v >> p) & 1) == 1;
         Console.WriteLine($"bit at position {p} is 1? {bit}");
     }

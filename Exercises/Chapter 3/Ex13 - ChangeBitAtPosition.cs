@@ -1,3 +1,9 @@
+using System;
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp;
+
+
 partial class Chapter3
 {
     public static void Ex13_ChangeBitAtPosition()
@@ -19,9 +25,11 @@ partial class Chapter3
 
         int bit = (n >> p) & 1;
         Console.WriteLine($"old bit at position {p}: {bit}");
-        
+
         // Solution to the excersie
-        if (bit != v) n ^= 1 << p;
+        n = (n & (~(1 << p))) ^ (v << p);
+
+        // Not required, but just here to prove the bit changed to the one specified by v
         bit = (n >> p) & 1;
 
         Console.WriteLine($"new bit at position {p}: {bit}");
