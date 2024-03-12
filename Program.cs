@@ -19,6 +19,6 @@ public class Program
 
 
         // So the console doesn't close afterwards
-        Console.Read();
+        Console.ReadLine();
     }
 }
