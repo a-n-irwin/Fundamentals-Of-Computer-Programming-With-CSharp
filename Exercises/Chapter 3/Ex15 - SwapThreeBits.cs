@@ -7,9 +7,6 @@ partial class Chapter3
 {
     public static void Ex15_SwapThreeBits()
     {
-        uint x = 134847 << 32;
-        int y = 134847 << 32;
-
         Console.WriteLine($"{x} {y}");
 
         Console.Write("Enter integer: ");
