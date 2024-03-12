@@ -7,8 +7,6 @@ partial class Chapter3
 {
     public static void Ex15_SwapThreeBits()
     {
-        Console.WriteLine($"{x} {y}");
-
         Console.Write("Enter integer: ");
         uint n = uint.Parse(Console.ReadLine());
 
