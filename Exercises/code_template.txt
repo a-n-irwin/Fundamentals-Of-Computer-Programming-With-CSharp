@@ -1,7 +1,10 @@
 using System;
 
 
+
 namespace FundamentalsOfComputerProgrammingWithCSharp;
+
+
 
 partial class Chapter
 {
