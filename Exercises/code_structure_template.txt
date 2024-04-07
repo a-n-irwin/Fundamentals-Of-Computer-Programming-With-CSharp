@@ -1,0 +1,22 @@
+using System;
+
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
+{
+
+
+    namespace Chapter
+    {
+        public static class Ex
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+
+            }
+        }
+    }
+
+
+}

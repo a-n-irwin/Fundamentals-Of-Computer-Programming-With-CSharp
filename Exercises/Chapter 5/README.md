@@ -13,8 +13,7 @@ if statements.
 5. Write a program that asks for a digit (0-9), and depending on the input, 
 shows the digit as a word (in English). Use a switch statement.
 6. Write a program that gets the coefficients a, b and c of a quadratic 
-equation: ax
-2 + bx + c, calculates and prints its real roots (if they exist). 
+equation: ax^2 + bx + c, calculates and prints its real roots (if they exist). 
 Quadratic equations may have 0, 1 or 2 real roots.
 7. Write a program that finds the greatest of given 5 numbers.
 8. Write a program that, depending on the user’s choice, inputs int, double
@@ -22,7 +21,7 @@ or string variable. If the variable is int or double, the program
 increases it by 1. If the variable is a string, the program appends "*" at 
 the end. Print the result at the console. Use switch statement.
 9. We are given 5 integer numbers. Write a program that finds those 
-subsets whose sum is 0. Examples:
+subsets whose sum is 0. Examples:  
 - If we are given the numbers {3, -2, 1, 1, 8}, the sum of -2, 1 and 1 
 is 0.
 - If we are given the numbers {3, 1, -7, 35, 22}, there are no subsets 
