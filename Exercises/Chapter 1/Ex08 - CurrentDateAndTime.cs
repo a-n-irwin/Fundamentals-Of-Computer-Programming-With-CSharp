@@ -1,9 +1,20 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
-partial class Chapter1
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex08_CurrentDateAndTime()
+
+
+    namespace Chapter1
     {
-        System.Console.WriteLine(System.DateTime.Now);
+        public static class Ex08_CurrentDateAndTime
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                System.Console.WriteLine(System.DateTime.Now);
+            }
+        }
     }
 }

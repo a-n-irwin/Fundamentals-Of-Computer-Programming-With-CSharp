@@ -1,16 +1,24 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter1
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex11_AgeAfterTenYears()
+
+
+    namespace Chapter1
     {
-        Console.Write("age: ");
+        public static class Ex11_AgeAfterTenYears
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.Write("age: ");
 
-        int age = int.Parse(Console.ReadLine());
+                int age = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Age after ten years: {0}", age + 10);
+                Console.WriteLine("Age after ten years: {0}", age + 10);
+            }
+        }
     }
 }

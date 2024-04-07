@@ -1,15 +1,26 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
-partial class Chapter1
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex10_Sequence()
-    {
-        for (int i = 0; i < 100; ++i)
-        {
-            int n = i + 2;
 
-            System.Console.Write(n % 2 == 0 ? n : -n);
-            System.Console.Write(i < 99 ? ", " : ".");
+
+    namespace Chapter1
+    {
+        public static class Ex10_Sequence
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                for (int i = 0; i < 100; ++i)
+                {
+                    int n = i + 2;
+
+                    System.Console.Write(n % 2 == 0 ? n : -n);
+                    System.Console.Write(i < 99 ? ", " : ".");
+                }
+            }
         }
     }
 }

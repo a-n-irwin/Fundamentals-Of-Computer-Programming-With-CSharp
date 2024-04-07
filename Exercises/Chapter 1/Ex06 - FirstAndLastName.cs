@@ -1,11 +1,21 @@
-﻿namespace FundamentalsOfComputerProgrammingWithCSharp;
+﻿using System;
 
 
-partial class Chapter1
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex06_FirstAndLastName()
+
+
+    namespace Chapter1
     {
-        System.Console.WriteLine("First name: Nosakhare");
-        System.Console.WriteLine("Last name: Akoko");
+        public static class Ex06_FirstAndLastName
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                System.Console.WriteLine("First name: Nosakhare");
+                System.Console.WriteLine("Last name: Akoko");
+            }
+        }
     }
 }

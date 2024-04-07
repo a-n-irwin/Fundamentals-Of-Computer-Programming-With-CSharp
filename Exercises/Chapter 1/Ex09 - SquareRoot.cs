@@ -1,9 +1,21 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
-partial class Chapter1
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex09_SquareRoot()
+
+
+    namespace Chapter1
     {
-        System.Console.WriteLine("Square root of 12345: {0}", System.Math.Sqrt(12345));
+        public static class Ex09_SquareRoot
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                System.Console.WriteLine("Square root of 12345: {0}", System.Math.Sqrt(12345));
+
+            }
+        }
     }
 }

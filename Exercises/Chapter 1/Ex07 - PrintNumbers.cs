@@ -1,11 +1,22 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
-partial class Chapter1
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex07_PrintNumbers()
+
+
+    namespace Chapter1
     {
-        System.Console.WriteLine(1);
-        System.Console.WriteLine(101);
-        System.Console.WriteLine(1001);
+        public static class Ex07_PrintNumbers
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                System.Console.WriteLine(1);
+                System.Console.WriteLine(101);
+                System.Console.WriteLine(1001);
+            }
+        }
     }
 }

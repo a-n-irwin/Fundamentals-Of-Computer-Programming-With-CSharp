@@ -1,10 +1,20 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
 
-partial class Chapter1
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex05_ModifySampleProgram()
+
+
+    namespace Chapter1
     {
-        System.Console.WriteLine("Good day");
+        public static class Ex05_ModifySampleProgram
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                System.Console.WriteLine("Good day");
+            }
+        }
     }
 }
