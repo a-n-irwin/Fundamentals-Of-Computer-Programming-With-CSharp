@@ -1,34 +1,42 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter3
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex14_PrimeNumbers()
+
+
+    namespace Chapter3
     {
-        Console.Write("Enter an integer in the range 1 - 100: ");
-        int n = int.Parse(Console.ReadLine());
-
-        // Input validation: 1 < n < 100
-        if (n >= 100 || n <= 1)
+        public static class Ex14_PrimeNumbers
         {
-            Console.WriteLine($"{n} is not within range");
-            return;
-        }
-
-        bool isPrime = true;
-        int length = (int)Math.Sqrt(n);
-
-        for (int i = 2; i <= length; ++i)
-        {
-            if (n % i == 0)
+            // Contains main solution code 
+            public static void Solution()
             {
-                isPrime = false;
-                break;
+                Console.Write("Enter an integer in the range 1 - 100: ");
+                int n = int.Parse(Console.ReadLine());
+
+                // Input validation: 1 < n < 100
+                if (n >= 100 || n <= 1)
+                {
+                    Console.WriteLine($"{n} is not within range");
+                    return;
+                }
+
+                bool isPrime = true;
+                int length = (int)Math.Sqrt(n);
+
+                for (int i = 2; i <= length; ++i)
+                {
+                    if (n % i == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+
+                Console.WriteLine($"{n} is prime? {isPrime}");
             }
         }
-
-        Console.WriteLine($"{n} is prime? {isPrime}");
     }
 }

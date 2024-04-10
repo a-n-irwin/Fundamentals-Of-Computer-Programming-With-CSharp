@@ -1,17 +1,25 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter3
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex03_ThirdDigit()
+
+
+    namespace Chapter3
     {
-        Console.Write("Enter an integer: ");
-        int n = int.Parse(Console.ReadLine());
+        public static class Ex03_ThirdDigit
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.Write("Enter an integer: ");
+                int n = int.Parse(Console.ReadLine());
 
-        bool thirdDigitIsSeven = (n % 1000) / 100 == 7;
+                bool thirdDigitIsSeven = (n % 1000) / 100 == 7;
 
-        Console.WriteLine($"Third digit is 7? {thirdDigitIsSeven}");
+                Console.WriteLine($"Third digit is 7? {thirdDigitIsSeven}");
+            }
+        }
     }
 }

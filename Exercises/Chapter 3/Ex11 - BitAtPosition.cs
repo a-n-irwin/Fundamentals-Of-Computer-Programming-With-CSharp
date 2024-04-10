@@ -1,20 +1,28 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter3
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex11_BitAtPosition()
+
+
+    namespace Chapter3
     {
-        Console.Write("Enter the integer and bit position: ");
-        string[] input = Console.ReadLine().Split();
+        public static class Ex11_BitAtPosition
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.Write("Enter the integer and bit position: ");
+                string[] input = Console.ReadLine().Split();
 
-        int n = int.Parse(input[0]);
-        int p = int.Parse(input[1]);
+                int n = int.Parse(input[0]);
+                int p = int.Parse(input[1]);
 
-        // Get the bit at position p (zero based index position)
-        int bit = (n >> p) & 1;
-        Console.WriteLine($"bit at position {p} is {bit}");
+                // Get the bit at position p (zero based index position)
+                int bit = (n >> p) & 1;
+                Console.WriteLine($"bit at position {p} is {bit}");
+            }
+        }
     }
 }
