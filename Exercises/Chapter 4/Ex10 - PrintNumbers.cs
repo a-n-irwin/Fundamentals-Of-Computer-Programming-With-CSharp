@@ -2,20 +2,25 @@ using System;
 
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
-
-
-
-partial class Chapter4
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex10_PrintNumbers()
-    {
-        Console.Write("Enter n: ");
-        int n = int.Parse(Console.ReadLine());
 
-        for (int integer = 1; integer <= n; ++integer)
+
+    namespace Chapter4
+    {
+        public static class Ex10_PrintNumbers
         {
-            Console.WriteLine(integer);
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.Write("Enter n: ");
+                int n = int.Parse(Console.ReadLine());
+
+                for (int integer = 1; integer <= n; ++integer)
+                {
+                    Console.WriteLine(integer);
+                }
+            }
         }
     }
 }

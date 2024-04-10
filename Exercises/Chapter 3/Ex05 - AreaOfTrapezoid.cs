@@ -6,7 +6,7 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
 {
 
 
-    namespace Chapter
+    namespace Chapter3
     {
         public static class Ex05_AreaOfTrapezoid
         {

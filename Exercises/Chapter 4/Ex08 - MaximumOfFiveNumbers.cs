@@ -2,27 +2,32 @@ using System;
 
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
-
-
-
-partial class Chapter4
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex08_MaximumOfFiveNumbers()
+
+
+    namespace Chapter4
     {
-        int counter = 0;
-        double max = 0;
-
-        while (counter < 5)
+        public static class Ex08_MaximumOfFiveNumbers
         {
-            Console.Write($"Enter any integer ({counter + 1} of 5): ");
-            double integer = double.Parse(Console.ReadLine());
+            // Contains main solution code 
+            public static void Solution()
+            {
+                int counter = 0;
+                double max = 0;
 
-            max = Math.Max(max, integer);
+                while (counter < 5)
+                {
+                    Console.Write($"Enter any integer ({counter + 1} of 5): ");
+                    double integer = double.Parse(Console.ReadLine());
 
-            ++counter;
+                    max = Math.Max(max, integer);
+
+                    ++counter;
+                }
+
+                Console.WriteLine($"The maximum of these numbers is {max}");
+            }
         }
-
-        Console.WriteLine($"The maximum of these numbers is {max}");
     }
 }

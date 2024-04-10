@@ -2,36 +2,40 @@ using System;
 
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
-
-
-
-partial class Chapter4
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    // Note: This exercise explicitly requested for input validation
-    public static void Ex07_SumOfFiveIntegers()
+
+
+    namespace Chapter4
     {
-        int counter = 0;
-        int sum = 0;
-
-        // The counter is increased depending on if an integer was successfully recorded or not
-        while (counter < 5)
+        public static class Ex07_SumOfFiveIntegers
         {
-            // It's good to let the user know how much input they will be requested to make
-            Console.Write($"Enter any integer ({counter + 1} of 5): ");
-            bool isParsed = int.TryParse(Console.ReadLine(), out int integer);
+            // Contains main solution code 
+            public static void Solution()
+            {
+                int counter = 0;
+                int sum = 0;
 
-            if (isParsed)
-            {
-                sum += integer;
-                counter++;
-            }
-            else
-            {
-                Console.WriteLine("Invalid integer! Please provide a valid integer below");
+                // The counter is increased depending on if an integer was successfully recorded or not
+                while (counter < 5)
+                {
+                    // It's good to let the user know how much input they will be requested to make
+                    Console.Write($"Enter any integer ({counter + 1} of 5): ");
+                    bool isParsed = int.TryParse(Console.ReadLine(), out int integer);
+
+                    if (isParsed)
+                    {
+                        sum += integer;
+                        counter++;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid integer! Please provide a valid integer below");
+                    }
+                }
+
+                Console.WriteLine($"The sum of these numbers is {sum}");
             }
         }
-
-        Console.WriteLine($"The sum of these numbers is {sum}");
     }
 }

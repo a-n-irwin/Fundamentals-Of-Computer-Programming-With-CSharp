@@ -1,19 +1,27 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter4
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex01_SumOfThreeIntegers()
+
+
+    namespace Chapter4
     {
-        Console.Write("Enter three integers: ");
-        string[] integers = Console.ReadLine().Split();
+        public static class Ex01_SumOfThreeIntegers
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.Write("Enter three integers: ");
+                string[] integers = Console.ReadLine().Split();
 
-        int a = int.Parse(integers[0]);
-        int b = int.Parse(integers[1]);
-        int c = int.Parse(integers[2]);
+                int a = int.Parse(integers[0]);
+                int b = int.Parse(integers[1]);
+                int c = int.Parse(integers[2]);
 
-        Console.WriteLine("sum: {0}", a + b + c);
+                Console.WriteLine("sum: {0}", a + b + c);
+            }
+        }
     }
 }

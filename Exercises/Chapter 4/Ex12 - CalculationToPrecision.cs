@@ -2,27 +2,32 @@ using System;
 
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
-
-
-
-partial class Chapter4
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex12_CalculationToPrecision()
+
+
+    namespace Chapter4
     {
-        double oldSum = 1;
-        double newSum = oldSum + 1.0 / 2;
-
-        int denominator = 3;
-
-
-        while (Math.Abs(newSum - oldSum) > 1E-3)
+        public static class Ex12_CalculationToPrecision
         {
-            oldSum = newSum;
-            newSum += 1.0 / (denominator % 2 == 0 ? denominator++ : -denominator++);
-        }
+            // Contains main solution code 
+            public static void Solution()
+            {
+                double oldSum = 1;
+                double newSum = oldSum + 1.0 / 2;
 
-        // Displayed to 3 decimal places
-        Console.WriteLine($"Sum: {newSum:F3}");
+                int denominator = 3;
+
+
+                while (Math.Abs(newSum - oldSum) > 1E-3)
+                {
+                    oldSum = newSum;
+                    newSum += 1.0 / (denominator % 2 == 0 ? denominator++ : -denominator++);
+                }
+
+                // Displayed to 3 decimal places
+                Console.WriteLine($"Sum: {newSum:F3}");
+            }
+        }
     }
 }
