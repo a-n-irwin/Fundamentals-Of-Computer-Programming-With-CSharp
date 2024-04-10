@@ -1,14 +1,22 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex06_IsMale()
+
+
+    namespace Chapter2
     {
-        // I'm male
-        bool isMale = true;
-        Console.WriteLine("I'm male? {0}", isMale);
+        public static class Ex06_IsMale
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                // I'm male
+                bool isMale = true;
+                Console.WriteLine("I'm male? {0}", isMale);
+            }
+        }
     }
 }

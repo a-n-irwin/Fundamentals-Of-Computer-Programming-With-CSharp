@@ -1,16 +1,24 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex09_QuotedAndUnquotedStrings()
-    {
-        string quoted = @"The ""use"" of quotations causes difficulties.";
-        string unquoted = "The \"use\" of quotations causes difficulties.";
 
-        // Not required
-        Console.WriteLine("Quoted: {0}\nUnquoted: {1}", quoted, unquoted);
+
+    namespace Chapter2
+    {
+        public static class Ex09_QuotedAndUnquotedStrings
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                string quoted = @"The ""use"" of quotations causes difficulties.";
+                string unquoted = "The \"use\" of quotations causes difficulties.";
+
+                // Not required
+                Console.WriteLine("Quoted: {0}\nUnquoted: {1}", quoted, unquoted);
+            }
+        }
     }
 }

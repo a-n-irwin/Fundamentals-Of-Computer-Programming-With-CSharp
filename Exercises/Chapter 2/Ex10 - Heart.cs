@@ -1,27 +1,35 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex10_Heart()
+
+
+    namespace Chapter2
     {
-        Console.WriteLine("\n\n");
-        Console.WriteLine("                  o:::::o       o:::::o");
-        Console.WriteLine("                o:::::::::o   o:::::::::o");
-        Console.WriteLine("              o:::::::::::::o:::::::::::::o");
-        Console.WriteLine("             o:::::::::::::::::::::::::::::o");
-        Console.WriteLine("             o:::::::::::::::::::::::::::::o");
-        Console.WriteLine("             o:::::::::::::::::::::::::::::o");
-        Console.WriteLine("              o:::::::::::::::::::::::::::o");
-        Console.WriteLine("               o:::::::::::::::::::::::::o");
-        Console.WriteLine("                 o:::::::::::::::::::::o");
-        Console.WriteLine("                   o:::::::::::::::::o");
-        Console.WriteLine("                     o:::::::::::::o");
-        Console.WriteLine("                        o::::::::o");
-        Console.WriteLine("                           o:::o");
-        Console.WriteLine("                            o:o");
-        Console.WriteLine("                             o");
+        public static class Ex10_Heart
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                Console.WriteLine("\n\n");
+                Console.WriteLine("                  o:::::o       o:::::o");
+                Console.WriteLine("                o:::::::::o   o:::::::::o");
+                Console.WriteLine("              o:::::::::::::o:::::::::::::o");
+                Console.WriteLine("             o:::::::::::::::::::::::::::::o");
+                Console.WriteLine("             o:::::::::::::::::::::::::::::o");
+                Console.WriteLine("             o:::::::::::::::::::::::::::::o");
+                Console.WriteLine("              o:::::::::::::::::::::::::::o");
+                Console.WriteLine("               o:::::::::::::::::::::::::o");
+                Console.WriteLine("                 o:::::::::::::::::::::o");
+                Console.WriteLine("                   o:::::::::::::::::o");
+                Console.WriteLine("                     o:::::::::::::o");
+                Console.WriteLine("                        o::::::::o");
+                Console.WriteLine("                           o:::o");
+                Console.WriteLine("                            o:o");
+                Console.WriteLine("                             o");
+            }
+        }
     }
 }

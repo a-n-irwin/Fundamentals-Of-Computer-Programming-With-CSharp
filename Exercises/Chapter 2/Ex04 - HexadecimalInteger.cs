@@ -1,12 +1,21 @@
 using System;
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex04_HexadecimalInteger()
+
+
+    namespace Chapter2
     {
-        int hex = 0x100;
-        Console.WriteLine(hex);
+        public static class Ex04_HexadecimalInteger
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                int hex = 0x100;
+                Console.WriteLine(hex);
+            }
+        }
     }
 }

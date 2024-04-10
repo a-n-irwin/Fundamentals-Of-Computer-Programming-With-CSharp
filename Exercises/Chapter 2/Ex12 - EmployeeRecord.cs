@@ -1,14 +1,25 @@
-namespace FundamentalsOfComputerProgrammingWithCSharp;
+using System;
 
-partial class Chapter2
+
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex12_EmployeeRecord()
+
+
+    namespace Chapter2
     {
-        // Data for an employee record
-        string firstName;
-        string lastName;
-        int age;
-        char gender;
-        uint id;
+        public static class Ex12_EmployeeRecord
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                // Data for an employee record
+                string firstName;
+                string lastName;
+                int age;
+                char gender;
+                uint id;
+            }
+        }
     }
 }

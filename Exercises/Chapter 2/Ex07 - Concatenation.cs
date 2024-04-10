@@ -1,16 +1,25 @@
 using System;
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex07_Concatenation()
+
+
+    namespace Chapter2
     {
-        string a = "Hello";
-        string b = "World";
+        public static class Ex07_Concatenation
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                string a = "Hello";
+                string b = "World";
 
-        object c = a + " " + b;
+                object c = a + " " + b;
 
-        Console.WriteLine(c);
+                Console.WriteLine(c);
+            }
+        }
     }
 }

@@ -1,20 +1,28 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex08_ConcatenationWithCast()
+
+
+    namespace Chapter2
     {
-        string a = "Hello";
-        string b = "World";
+        public static class Ex08_ConcatenationWithCast
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                string a = "Hello";
+                string b = "World";
 
-        object c = a + " " + b;
+                object c = a + " " + b;
 
-        // Alternatively: Convert.toString(c) or c.ToString()
-        string d = (string)c;
+                // Alternatively: Convert.toString(c) or c.ToString()
+                string d = (string)c;
 
-        Console.WriteLine(d);
+                Console.WriteLine(d);
+            }
+        }
     }
 }

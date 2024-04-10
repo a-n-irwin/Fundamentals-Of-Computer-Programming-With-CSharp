@@ -1,13 +1,21 @@
 using System;
 
 
-namespace FundamentalsOfComputerProgrammingWithCSharp;
 
-partial class Chapter2
+namespace FundamentalsOfComputerProgrammingWithCSharp
 {
-    public static void Ex05_UnicodeCharacter()
+
+
+    namespace Chapter2
     {
-        char unicode = '\u0048';
-        Console.WriteLine(unicode);
+        public static class Ex05_UnicodeCharacter
+        {
+            // Contains main solution code 
+            public static void Solution()
+            {
+                char unicode = '\u0048';
+                Console.WriteLine(unicode);
+            }
+        }
     }
 }
