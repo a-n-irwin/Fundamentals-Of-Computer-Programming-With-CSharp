@@ -21,9 +21,9 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
                 // Input validation is necessary here as we don't want an N value to large
                 while (condition)
                 {
-                    Console.WriteLine("Enter set size (1 - 100): ");
+                    Console.WriteLine("Enter set size (1 - 10): ");
                     // We want to stop the loop when the input was succesfully parsed to an int and it is within the range specified
-                    condition = !(int.TryParse(Console.ReadLine(), out size) && size >= 1 && size <= 100);
+                    condition = !(int.TryParse(Console.ReadLine(), out size) && size >= 1 && size <= 10);
                 }
 
 
