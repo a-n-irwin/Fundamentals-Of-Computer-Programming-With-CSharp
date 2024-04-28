@@ -20,8 +20,15 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
 
                 for (int i = 0; i < binary.Length; ++i)
                 {
+                    // If an invalid binary digit is found during conversion, it will report an error and end the program
+                    if (!(binary[i] >= '0' && binary[i] <= '1'))
+                    {
+                        Console.WriteLine($"Error: Invalid binary digit {binary[i]} found");
+                        return;
+                    }
+
                     // Using unicode char offset to convert the char digit to integer digit
-                    number += (binary[binary.Length - i - 1] - 48) * (int)Math.Pow(2, i);
+                    number += (binary[i] - 48) * (int)Math.Pow(2, binary.Length - 1 - i);
                 }
 
                 // Alternatively

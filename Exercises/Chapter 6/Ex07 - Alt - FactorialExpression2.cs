@@ -10,7 +10,7 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
     namespace Chapter6
     {
         // Slight modiification of exercise 6
-        public static class Ex07_FactorialExpression2_Alt
+        public static class Ex07_Alt_FactorialExpression2
         {
             // Contains main solution code 
             public static void Solution()
