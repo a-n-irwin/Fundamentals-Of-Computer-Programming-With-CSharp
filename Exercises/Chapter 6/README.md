@@ -17,11 +17,11 @@ of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8,
 6. Write a program that calculates N!/K! for given N and K (1 < K < N).
 7. Write a program that calculates N!*K!/(N-K)! for given N and K 
 (1 < K < N).
-8. In combinatorics, the Catalan numbers are calculated by the following formula:  ![image for exercise 08](img/ex08.png)  
+8. In combinatorics, the Catalan numbers are calculated by the following formula:  ![image for exercise 08](img/06ex08.png)  
 Write a program that calculates the nth Catalan number by given n.
-9. Write a program that for a given integers n and x, calculates the sum:  ![image for exercise 09](img/ex09.png)
+9. Write a program that for a given integers n and x, calculates the sum:  ![image for exercise 09](img/06ex09.png)  
 10. Write a program that reads from the console a positive integer number 
-N (N < 20) and prints a matrix of numbers as on the figures below:  ![image for exercise 10](img/ex09.png)
+N (N < 20) and prints a matrix of numbers as on the figures below:  ![image for exercise 10](img/06ex09.png)  
 11. Write a program that calculates with how many zeroes the factorial of 
 a given number ends. Examples:
 N = 10 -> N! = 3628800 -> 2
@@ -40,5 +40,5 @@ in random order.
 divisor (GCD) and their least common multiple (LCM). You may use 
 the formula LCM(a, b) = |a*b| / GCD(a, b)
 18. Write a program that for a given number n, outputs a matrix in the 
-form of a spiral. Example for n = 4:  ![image for exercise 18](img/ex18.png)
+form of a spiral. Example for n = 4:  ![image for exercise 18](img/06ex18.png)
 
