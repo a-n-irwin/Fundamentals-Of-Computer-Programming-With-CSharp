@@ -12,25 +12,25 @@ length and all of their elements, which have the same index, are equal).
 lexicographically (character by character) and checks, which one is first 
 in the lexicographical order.
 4. Write a program, which finds the maximal sequence of consecutive 
-equal elements in an array. E.g.: {1, 1, 2, 3, 2, 2, 2, 1}  {2, 2, 2}.
+equal elements in an array. E.g.: {1, 1, 2, 3, 2, 2, 2, 1} -> {2, 2, 2}.
 5. Write a program, which finds the maximal sequence of consecutively 
-placed increasing integers. Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.
+placed increasing integers. Example: {3, 2, 3, 4, 2, 2, 4} -> {2, 3, 4}.
 6. Write a program, which finds the maximal sequence of increasing 
 elements in an array arr[n]. It is not necessary the elements to be 
-consecutively placed. E.g.: {9, 6, 2, 7, 4, 7, 6, 5, 8, 4}  {2, 4, 6, 8}.
+consecutively placed. E.g.: {9, 6, 2, 7, 4, 7, 6, 5, 8, 4} -> {2, 4, 6, 8}.
 7. Write a program, which reads from the console two integer numbers N
 and K (K < N) and array of N integers. Find those K consecutive 
 elements in the array, which have maximal sum.
-8. Sorting an array means to arrange its elements in an increasing (or 
+8. Sorting an array means to arrange its elements in an increasing (or
 decreasing) order. Write a program, which sorts an array using the 
 algorithm "selection sort".
 9. Write a program, which finds a subsequence of numbers with 
-maximal sum. E.g.: {2, 3, -6, -1, 2, -1, 6, 4, -8, 8}  11
+maximal sum. E.g.: {2, 3, -6, -1, 2, -1, 6, 4, -8, 8} -> 11
 10. Write a program, which finds the most frequently occurring element in 
-an array. Example: {4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3}  4 (5 times).
+an array. Example: {4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3} -> 4 (5 times).
 11. Write a program to find a sequence of neighbor numbers in an array, 
 which has a sum of certain number S. Example: {4, 3, 1, 4, 2, 5, 8},
-S=11  {4, 2, 5}.
+S=11 -> {4, 2, 5}.
 12. Write a program, which creates square matrices like those in the 
 figures below and prints them formatted to the console. The size of the 
 matrices will be read from the console. See the examples for matrices 

@@ -1,7 +1,8 @@
 ## Fundamentals Of Computer Programming With C Sharp (The Bulgarian C# Programming Book), Svetlin Nakov & Co. ##
 This repo contains my own personal solutions to the exercises in the C# programming book with the same name title above.
 
-This project was created using .NET 7.  
+This project was created using .NET 7. Pleae make sure to refer to the exercises in each chapter's readme file before looking  
+at the solutions to them, as no attempt is made to explain the purpose of a solution except what may be inferred from the code.
   
 
 ### Structure Of The Solutions ###

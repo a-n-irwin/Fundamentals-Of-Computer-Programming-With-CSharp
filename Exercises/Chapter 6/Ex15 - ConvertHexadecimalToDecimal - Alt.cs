@@ -9,7 +9,7 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
 
     namespace Chapter6
     {
-        public static class Ex15_Alt_ConvertHexadecimalToDecimal
+        public static class Ex15_ConvertHexadecimalToDecimal_Alt
         {
             // Contains main solution code 
             public static void Solution()

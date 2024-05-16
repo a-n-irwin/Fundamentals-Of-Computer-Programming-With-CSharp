@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using FundamentalsOfComputerProgrammingWithCSharp.Chapter6;
+using FundamentalsOfComputerProgrammingWithCSharp.Chapter07;
 
 
 public class Program
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
-        Ex08_CatalanNumbers.Solution();
+        Ex13_MaximalPlatformInMatrix.Solution();
 
         // So the console doesn't close afterwards
         Console.Read();

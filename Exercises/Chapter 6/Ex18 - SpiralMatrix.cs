@@ -29,35 +29,29 @@ namespace FundamentalsOfComputerProgrammingWithCSharp
                 {
                     // Fill this layer's top
                     for (int col = layer; col < n - layer; ++col)
-                    {
                         matrix[layer, col] = number++;
-                    }
 
                     // Fill this layer's right
                     for (int row = layer + 1; row < n - layer; ++row)
-                    {
                         matrix[row, n - layer - 1] = number++;
-                    }
 
                     // Fill this layer's bottom
                     for (int col = n - layer - 2; col >= layer; --col)
-                    {
                         matrix[n - layer - 1, col] = number++;
-                    }
 
                     // Fill this layer's left
                     for (int row = n - layer - 2; row >= layer + 1; --row)
-                    {
                         matrix[row, layer] = number++;
-                    }
                 }
+
+                int width = $"{matrix.Length}".Length + 1;
 
                 // Print the matrix
                 for (int row = 0; row < n; ++row)
                 {
                     for (int col = 0; col < n; ++col)
                     {
-                        Console.Write($"{matrix[row, col],3} ");
+                        Console.Write($"{matrix[row, col]}".PadLeft(width));
                     }
                     Console.WriteLine();
                 }
