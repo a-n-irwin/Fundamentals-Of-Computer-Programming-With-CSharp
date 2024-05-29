@@ -21,7 +21,7 @@ of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8,
 Write a program that calculates the nth Catalan number by given n.
 9. Write a program that for a given integers n and x, calculates the sum:  ![image for exercise 09](img/06ex09.png)  
 10. Write a program that reads from the console a positive integer number 
-N (N < 20) and prints a matrix of numbers as on the figures below:  ![image for exercise 10](img/06ex09.png)  
+N (N < 20) and prints a matrix of numbers as on the figures below:  ![image for exercise 10](img/06ex10.png)  
 11. Write a program that calculates with how many zeroes the factorial of 
 a given number ends. Examples:
 N = 10 -> N! = 3628800 -> 2
